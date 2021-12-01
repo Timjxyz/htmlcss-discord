@@ -1,6 +1,36 @@
+/* Inizio parti in comune del codice */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
 }
+
+
+
+/* Inizio parti in comune del codice */
+
+.debug{
+    height: 600px;
+    
+}
+
+/* Inizio regole header */
+header{
+    background-color: #3161e0;
+}
+/* Inizio regole header */
+
+
+/* Inizio regole main */
+main{
+    background-color: gray;
+}
+/* Fine regole main */
+
+
+/* Inizio regole footer */
+footer{
+    background-color: black;
+}
+/* Fine regole footer */
