@@ -59,8 +59,13 @@ p{
 }
 
 .wave{
-    margin-bottom: 0;
+    margin-bottom: -5px;
+    transform: rotate(360deg);
     filter: invert(100%) sepia(0%) saturate(5290%) hue-rotate(50deg) brightness(122%) contrast(95%);
+}
+
+.wave.rotate{
+    transform: rotate(180deg);
 }
 /* Fine parti in comune del codice */
 
@@ -263,15 +268,22 @@ footer{
     padding-top: 50px;
 }
 
+.info-conteiner::after{
+    display: table;
+    content: "";
+    clear: both;
+    
+}
+
 .info{
     float: left;
     text-align: center;
 }
 
 .info.box{
-    width: 60%;
+    width: 40%;
     text-align: left;
-    color: #465278;
+    color: #8ea1e1;
     text-align: justify;
 }
 
@@ -286,19 +298,19 @@ footer{
 }
 
 .info.prodotto{
-    width: 10%;
+    width: 15%;
 }
 
 .info.compagnia{
-    width: 10%;
+    width: 15%;
 }
 
 .info.risorse{
-    width: 10%;
+    width: 15%;
 }
 
 .info.norme{
-    width: 10%;
+    width: 15%;
 }
 
 #flag img{
@@ -306,6 +318,44 @@ footer{
     width: 3%;
 }
 
+footer li{
+    list-style: none;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+footer ul li .title-list{
+    color: #8ea1e1;
+}
+
+hr{
+    border-color: #8ea1e1;
+    margin-top: 20px;
+}
+
+#credits{
+    padding-top: 40px;
+}
+
+#logo-footer{
+    margin-top: 20px;
+    float:left; 
+    height: 70px;
+    margin-top:auto;
+}
+
+.btn.btn-footer{
+    color:rgb(255, 255, 255);
+    background-color: #8ea1e1;
+    
+}
 
 
 /* Fine regole footer */
