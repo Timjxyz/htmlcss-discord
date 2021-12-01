@@ -40,11 +40,48 @@
     font-weight: 600;
     
 }
+/* Inizio regole di hover */
+footer ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+header .btn:hover{
+    background-color: red;
+    color: white;
+}
 
+.btn.big.btn-mac:hover{
+    background-color: green;
+    color: white;
+}
+
+#jumbotron .btn-browser:hover{
+    background-color: gray;
+    color: #23272a;
+}
+
+.btn.btn-footer:hover{
+    background-color: white;
+    color:black;
+} 
+
+.text-last-item .btn.big.btn-mac:hover{
+    background-color: red;
+    color: black;
+}
+/* Fine regole di hover per i vari btn */
+
+/* Regola per freccia in giù all'interno del bottone */
 .fas{
     margin-right: 10px;
 }
 
+
+/* Regole di testo */
 h2{
     font-size: 42px;
 }
@@ -58,9 +95,10 @@ p{
     
 }
 
+
+/* Regole sulle wave inserite come immagini */
 .wave{
     margin-bottom: -5px;
-    transform: rotate(360deg);
     filter: invert(100%) sepia(0%) saturate(5290%) hue-rotate(50deg) brightness(122%) contrast(95%);
 }
 
@@ -69,17 +107,12 @@ p{
 }
 /* Fine parti in comune del codice */
 
-.debug{
-    height: 600px;
-    
-}
 
 /* Inizio regole header */
 header{
     background-color:#3161e0;
     height: 70px;
-    padding-bottom: 200px;
-    
+    padding-bottom: 200px;  
 }
 
 header .container{
@@ -195,7 +228,7 @@ main{
     padding:80px 20px;
 }
 
-.first-part{
+.content{
     width: 80%;
     margin: auto;
     max-width: 1180px;
@@ -263,7 +296,7 @@ main{
 
 /* Inizio regole footer */
 footer{
-    min-height: 800px;
+    min-height: 500px;
     background-color: #23272a;
     padding-top: 50px;
 }
