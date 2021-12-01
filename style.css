@@ -258,6 +258,54 @@ main{
 
 /* Inizio regole footer */
 footer{
-    background-color: green;
+    min-height: 800px;
+    background-color: #23272a;
+    padding-top: 50px;
 }
+
+.info{
+    float: left;
+    text-align: center;
+}
+
+.info.box{
+    width: 60%;
+    text-align: left;
+    color: #465278;
+    text-align: justify;
+}
+
+.info.box span{
+    color: white;
+}
+
+.info.box .social{
+    color: white;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.info.prodotto{
+    width: 10%;
+}
+
+.info.compagnia{
+    width: 10%;
+}
+
+.info.risorse{
+    width: 10%;
+}
+
+.info.norme{
+    width: 10%;
+}
+
+#flag img{
+    margin-top: 10px;
+    width: 3%;
+}
+
+
+
 /* Fine regole footer */
