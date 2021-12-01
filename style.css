@@ -8,8 +8,11 @@
 
 .container{
     width: 80%;
-    margin: 0 auto;
-    border: 1px solid black
+    max-width: 1180px;
+    margin: 0 auto; 
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
 }
 
 /* Inizio parti in comune del codice */
@@ -22,8 +25,67 @@
 /* Inizio regole header */
 header{
     background-color: #3161e0;
+    height: 70px;
+    
 }
-/* Inizio regole header */
+
+header .container{
+    line-height: 70px;
+    
+}
+
+#logo img{
+    float:left;
+    width: 15%; 
+    height: 70px;
+    margin-top:auto;
+    
+}
+
+/* Regole nav */
+nav ul{
+    float:left;
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;    
+}
+
+header a{
+    color: rgb(255, 255, 255);
+}
+
+nav li a{
+    text-decoration: none;
+    margin-right: 20px;
+   
+}
+/* Fine regole nav */
+
+
+/* Regole bottone login */
+.login {
+    display: inline-block;
+    float:right;
+    width: 15%;
+    text-align: right;
+}
+
+.login .btn{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    padding: 8px 16px;
+
+}
+
+/* Fine regole header */
 
 
 /* Inizio regole main */
