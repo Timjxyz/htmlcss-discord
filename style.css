@@ -10,9 +10,12 @@
     width: 80%;
     max-width: 1180px;
     margin: 0 auto; 
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     
+}
+.container::after{
+    display: table;
+    content: "";
+    clear: both;
 }
 
 /* Inizio parti in comune del codice */
@@ -24,7 +27,7 @@
 
 /* Inizio regole header */
 header{
-    background-color: #3161e0;
+    background-color:#3161e0;
     height: 70px;
     
 }
@@ -33,6 +36,7 @@ header .container{
     line-height: 70px;
     
 }
+
 
 #logo img{
     float:left;
@@ -86,6 +90,24 @@ nav li a{
 }
 
 /* Fine regole header */
+
+/* Inizio regole sezione jumbotron */
+#jumbotron{
+    background-image: url("img/jumbo.png");
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+#jumbotron .container{
+    width: 60%;
+    max-width: 780px;
+    height: 700px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+/* Fine regole sezione jumbotron */
 
 
 /* Inizio regole main */
