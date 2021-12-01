@@ -18,6 +18,33 @@
     clear: both;
 }
 
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 14px;
+    padding: 7px 16px;
+
+
+}
+
+.btn.big{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 28px;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.fas{
+    margin-right: 10px;
+}
+
 /* Inizio parti in comune del codice */
 
 .debug{
@@ -29,6 +56,7 @@
 header{
     background-color:#3161e0;
     height: 70px;
+    padding-bottom: 200px;
     
 }
 
@@ -85,7 +113,8 @@ nav li a{
     background-color: white;
     color: black;
     border-radius: 16px;
-    padding: 8px 16px;
+    padding: 7px 16px;
+    display: inline;
 
 }
 
@@ -94,18 +123,43 @@ nav li a{
 /* Inizio regole sezione jumbotron */
 #jumbotron{
     background-image: url("img/jumbo.png");
-    min-height: 600px;
+    min-height: 420px;
     background-size: cover;
     background-position: center;
+      
 }
 
 #jumbotron .container{
     width: 60%;
     max-width: 780px;
-    height: 700px;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+    
+    text-align: center;
+    color: white;  
 }
+
+#title-text{
+    font-size: 56px;
+}
+
+#p-title{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+#jumbotron .btn-mac{
+    margin-top: 24px;
+    margin-right: 24px;
+
+}
+
+#jumbotron .btn-browser{
+    margin-top: 24px;
+    background-color: #23272a;
+    color: white;
+    
+
+}
+
 
 /* Fine regole sezione jumbotron */
 
