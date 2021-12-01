@@ -6,7 +6,11 @@
     font-family: Helvetica, sans-serif;
 }
 
-
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black
+}
 
 /* Inizio parti in comune del codice */
 
@@ -31,6 +35,6 @@ main{
 
 /* Inizio regole footer */
 footer{
-    background-color: black;
+    background-color: green;
 }
 /* Fine regole footer */
