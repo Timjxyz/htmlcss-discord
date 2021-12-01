@@ -38,14 +38,31 @@
     padding: 16px 32px;
     font-size: 20px;
     font-weight: 600;
-
+    
 }
 
 .fas{
     margin-right: 10px;
 }
 
-/* Inizio parti in comune del codice */
+h2{
+    font-size: 42px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+p{
+    font-size: 20px;
+    
+}
+
+.wave{
+    margin-bottom: 0;
+    filter: invert(100%) sepia(0%) saturate(5290%) hue-rotate(50deg) brightness(122%) contrast(95%);
+}
+/* Fine parti in comune del codice */
 
 .debug{
     height: 600px;
@@ -166,8 +183,76 @@ nav li a{
 
 /* Inizio regole main */
 main{
-    background-color: gray;
+    padding-top: 100px;
+    background-color: rgb(255, 255, 255);
 }
+.padding-container{
+    padding:80px 20px;
+}
+
+.first-part{
+    width: 80%;
+    margin: auto;
+    max-width: 1180px;
+}
+
+.container-gray{
+    background-color: #f6f6f6;
+    
+}
+
+
+
+.container-gray::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.text-last-item{
+    text-align: center;
+    
+}
+
+.last-section{
+    position: relative;
+    min-height: 800px;
+}
+
+.text-last-item{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.item{
+    float: left;
+    width: 70%;
+    padding-right: 50px;
+    
+}
+
+.text-item{
+    padding-top: 40px;
+    float: left;
+    width: 30%;
+
+}
+
+.stars{
+    background-image: url("img/stars.svg");
+    margin-bottom: 60px;
+    text-align: center;
+       
+}
+
+.text-last-item .btn.big.btn-mac{
+    background-color: #8ea1e1;
+    color: white;
+}
+
 /* Fine regole main */
 
 
