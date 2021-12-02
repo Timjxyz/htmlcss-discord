@@ -98,7 +98,7 @@ p{
 
 /* Regole sulle wave inserite come immagini */
 .wave{
-    margin-bottom: -5px;
+    display: block;
     filter: invert(100%) sepia(0%) saturate(5290%) hue-rotate(50deg) brightness(122%) contrast(95%);
 }
 
